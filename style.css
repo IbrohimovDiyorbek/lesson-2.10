@@ -160,7 +160,13 @@ button:active {
     margin-right: auto;
 }
 
+.cards{
+    position: relative;
+}
+
 .card {
+    position: absolute;
+    bottom: -80px;
     width: 1200px;
     height: 168px;
     border-radius: 10px;
@@ -172,7 +178,8 @@ button:active {
 
 input {
     width: 201px;
-    height: 36px;
+    height: 26px;
+    padding: 10px;
     border-radius: 10px;
     background: rgb(255, 255, 255);
     width: 769px;
@@ -212,7 +219,7 @@ input {
 }
 
 .wrapper {
-    margin-top: 11px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -230,6 +237,7 @@ h2 {
     letter-spacing: -1px;
     text-align: center;
     margin-left: 386px;
+    padding-top: 100px;
 }
 
 .but4 {
@@ -254,7 +262,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 100px;
     margin-left: 557px;
 }
 
@@ -279,4 +287,5 @@ footer {
     width: 120.04px;
     height: 32.67px;    
     color: white;
-}
+}   
+
